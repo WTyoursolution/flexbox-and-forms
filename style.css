@@ -1,0 +1,17 @@
+.div-child {
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    border: solid black 5px;
+    flex: 1;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+
+}
+header {
+    height: 100px;
+}
