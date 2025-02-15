@@ -6,10 +6,11 @@
     <link rel="stylesheet" href="reset.css">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <header>FLEXBOX</header>
+    <header><h1>FLEXBOX</h1></header>
     <section>
         <div class="container">
             <div class="div-child start">
@@ -26,7 +27,41 @@
             </div>
         </div>
     </section>
-    <main></main>
-    <footer></footer>
+
+<div class="form-div">
+    <h3>Advanced Form Techniques</h2>
+</div>
+
+    <main>
+        <section>
+            <form action="" id="form" aria-labelledby="form-title">
+                <h4 id="form-title">User Login</h4>
+                <label for="username">User Name:</label>
+                <input type="text" id="username" name="firstname" autofocus placeholder="Enter User Name"  >
+
+                <label for="email">Email</label>
+                <input type="email" name="" id="" placeholder="Email" aria-required="true" required>
+
+                <label for="password">Password</label>
+                <input type="password" placeholder="Password" aria-required="true" required>
+
+                <input type="Submit" value="submit">
+
+                <div class="signup">
+                <label for="noaccount">No Account? Sign Up!</label>
+                <button type="button" role="button">Sign Up!</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-youtube"></a>
+
+        <p>Copyright &copy; created by Keyla Welcome</p>
+    
+    </footer>
 </body>
 </html>
